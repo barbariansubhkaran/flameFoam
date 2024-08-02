@@ -50,7 +50,13 @@ adjustTimeStep  no;
 
 maxCo           0.2;
 
-maxDeltaT       1;
+maxDeltaT       1; 
+
+libs
+(
+  "flameFoam-11.0.0.so"
+);
+
 
 
 // ************************************************************************* //
